@@ -1,0 +1,17 @@
+.question-box{
+    border: 1px solid #D9DBE9;
+    border-radius: 20px;
+    margin: 20px;
+    height: auto;
+    padding: 10px;
+}
+
+.question{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.question a{
+    margin-left: 80%;
+}

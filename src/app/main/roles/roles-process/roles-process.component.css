@@ -1,0 +1,46 @@
+.role{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 28px;
+}
+
+.heading {
+    display: flex;
+    width: 100%;
+    padding: 15px 0px;
+    
+}
+
+.heading h2{
+    color: #192A3E;
+    font-family: SF Pro Display;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 4px;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+    border: #D9DBE9 1px solid;
+    border-radius: 8px;
+    height: 60px;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.content p{
+    color: #707683;
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.content a{
+    display: flex;
+    text-decoration: none;
+    margin-left: 83%;
+}

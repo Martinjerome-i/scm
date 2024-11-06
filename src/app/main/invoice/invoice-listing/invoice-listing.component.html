@@ -1,0 +1,163 @@
+<section class="checklist">
+    <div class="section-header">
+        <h2 class="section-header-heading">Invoice and Payments</h2>
+        <div class="section-header-buttons">
+            <button class="white-small-button" (click)="panel2.toggle()"><img src="assets/filter.png" alt="filter-icon">Filter</button>
+        </div>
+    </div>
+    <mat-accordion>
+        <mat-expansion-panel #panel2 [hideToggle]="true">
+        <div class="filter-menu">
+          <div class="search-row">
+            <span class="search-box">
+                <a class="a-left" href="#" ><img src="assets/Icon.png" alt=""></a>
+                <input type="text" placeholder="Vendor/Material Name">
+            </span>
+            <span class="search-box">
+                <input type="text" placeholder="Invoice/GRN Date">
+                <a class="a-right" href="#"><img src="assets/datepicker.png" alt=""></a>
+            </span>
+            <span class="search-box">
+                <input type="text" placeholder="Select status">
+                <a class="a-right" href="#"><img src="assets/drownarrow.png" alt=""></a>
+            </span>
+          </div>
+        </div>
+        </mat-expansion-panel>
+    </mat-accordion>
+    <div class="content-table">
+        <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th class = "content-table-heading" style="width: 250px;">Invoice No</th>
+                  <th class = "content-table-heading" style="width: 480px;">Invoice Date</th>
+                  <th class = "content-table-heading" style="width: 350px;">P.O No.</th>
+                  <th class = "content-table-heading" style="width: 250px;">Vendor Company Name</th>
+                  <th class = "content-table-heading" style="width: 360px;">GRN Date</th>
+                  <th class = "content-table-heading" style="width: 360px;">Quality Status</th>
+                  <th class = "content-table-heading" style="width: 250px;">Payment Status</th>
+                  <th class = "content-table-heading" style="width: 250px;">Action</th>
+                </tr>
+              </thead>
+                <tbody>
+                  <tr class="content-table-rows">
+                    <td class="content-table-data">22568</td>
+                    <td class="content-table-data">01/01/2023</td>
+                    <td class="content-table-data">22568</td>
+                    <td class="content-table-data">Name of the Company</td>
+                    <td class="content-table-data">01/01/2023</td>
+                    <td class="content-table-data"><span class="status approved">Approved</span></td>
+                    <td class="content-table-data"><select name="payments" id="payments">
+                        <option value="Full">Full Payment</option>
+                        <option value="Partial">Partial Payment</option>
+                        <option value="Reject">Rejected</option>
+                      </select></td>
+                      <td class="content-table-data">
+                          <div>
+                          <a href="checklist_action.html"><img src="assets/download.png" alt=""></a>
+                          </div>
+                      </td>
+                  </tr>
+                  <tr class="content-table-rows">
+                    <td class="content-table-data">22568</td>
+                    <td class="content-table-data">01/01/2023</td>
+                    <td class="content-table-data">22568</td>
+                    <td class="content-table-data">Name of the Company</td>
+                    <td class="content-table-data">01/01/2023</td>
+                    <td class="content-table-data"><span class="status approved">Approved</span></td>
+                    <td class="content-table-data"><select name="payments" id="payments">
+                        <option value="Full">Full Payment</option>
+                        <option value="Partial">Partial Payment</option>
+                        <option value="Reject">Rejected</option>
+                      </select></td>
+                      <td class="content-table-data">
+                          <div>
+                          <a href="checklist_action.html"><img src="assets/download.png" alt=""></a>
+                          </div>
+                      </td>
+                  </tr>
+                  <tr class="content-table-rows">
+                    <td class="content-table-data">22568</td>
+                    <td class="content-table-data">01/01/2023</td>
+                    <td class="content-table-data">22568</td>
+                    <td class="content-table-data">Name of the Company</td>
+                    <td class="content-table-data">01/01/2023</td>
+                    <td class="content-table-data"><span class="status approved">Approved</span></td>
+                    <td class="content-table-data"><select name="payments" id="payments">
+                        <option value="Full">Full Payment</option>
+                        <option value="Partial">Partial Payment</option>
+                        <option value="Reject">Rejected</option>
+                      </select></td>
+                      <td class="content-table-data">
+                          <div>
+                          <a href="checklist_action.html"><img src="assets/download.png" alt=""></a>
+                          </div>
+                      </td>
+                  </tr>
+                  <tr class="content-table-rows">
+                    <td class="content-table-data">22568</td>
+                    <td class="content-table-data">01/01/2023</td>
+                    <td class="content-table-data">22568</td>
+                    <td class="content-table-data">Name of the Company</td>
+                    <td class="content-table-data">01/01/2023</td>
+                    <td class="content-table-data"><span class="status approved">Approved</span></td>
+                    <td class="content-table-data"><select name="payments" id="payments">
+                        <option value="Full">Full Payment</option>
+                        <option value="Partial">Partial Payment</option>
+                        <option value="Reject">Rejected</option>
+                      </select></td>
+                      <td class="content-table-data">
+                          <div>
+                          <a href="checklist_action.html"><img src="assets/download.png" alt=""></a>
+                          </div>
+                      </td>
+                  </tr>
+                  <tr class="content-table-rows">
+                    <td class="content-table-data">22568</td>
+                    <td class="content-table-data">01/01/2023</td>
+                    <td class="content-table-data">22568</td>
+                    <td class="content-table-data">Name of the Company</td>
+                    <td class="content-table-data">01/01/2023</td>
+                    <td class="content-table-data"><span class="status approved">Approved</span></td>
+                    <td class="content-table-data"><select name="payments" id="payments">
+                        <option value="Full">Full Payment</option>
+                        <option value="Partial">Partial Payment</option>
+                        <option value="Reject">Rejected</option>
+                      </select></td>
+                      <td class="content-table-data">
+                          <div>
+                          <a href="checklist_action.html"><img src="assets/download.png" alt=""></a>
+                          </div>
+                      </td>
+                  </tr>
+                  <tr class="content-table-rows">
+                    <td class="content-table-data">22568</td>
+                    <td class="content-table-data">01/01/2023</td>
+                    <td class="content-table-data">22568</td>
+                    <td class="content-table-data">Name of the Company</td>
+                    <td class="content-table-data">01/01/2023</td>
+                    <td class="content-table-data"><span class="status approved">Approved</span></td>
+                    <td class="content-table-data"><select name="payments" id="payments">
+                        <option value="Full">Full Payment</option>
+                        <option value="Partial">Partial Payment</option>
+                        <option value="Reject">Rejected</option>
+                      </select></td>
+                      <td class="content-table-data">
+                          <div>
+                          <a href="checklist_action.html"><img src="assets/download.png" alt=""></a>
+                          </div>
+                      </td>
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <mat-paginator [length]="100"
+              [pageSize]="10"
+              [pageSizeOptions]="[5, 10, 25, 100]"
+              showFirstLastButtons
+              aria-label="Select page"
+              class="pagination">
+    </mat-paginator>
+  </section>
